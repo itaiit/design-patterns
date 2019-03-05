@@ -1,4 +1,4 @@
-设计模式的学习主要参考：[https://blog.csdn.net/LoveLion/article/details/17517213](https://blog.csdn.net/LoveLion/article/details/17517213)，总结自己的理解。
+2019的学习主要参考：[https://blog.csdn.net/LoveLion/article/details/17517213](https://blog.csdn.net/LoveLion/article/details/17517213)，总结自己的理解。
 
 ## 7种面向对象设计原则
 
@@ -13,3 +13,14 @@
 3. 合成复用原则：合理设计对象之间的继承与组合的关系。
 4. 迪米特法则：在现在流行的三层软件架构中的体现则是`尽量少的跨层调用相关对象`。
 
+## 单例模式
+
+1. 饿汉式：类加载时即创建一个静态实例保存在内存中；
+
+2. 懒汉式(`synchronized`)；
+
+3. _静态内部类_；
+
+## 简单工厂模式
+
+根据传递给静态工厂方法参数的不同，来创建不同的对象。可以是继承自同一个`abstract`类的不同的product，也可以是实现同一个`interface`的不同product。
