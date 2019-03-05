@@ -1,3 +1,5 @@
+package com.atyouyou;
+
 // 有问题的单例模式
 public class TaskManager{
 
