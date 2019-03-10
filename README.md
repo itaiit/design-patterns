@@ -1,5 +1,7 @@
 2019的学习主要参考：[https://blog.csdn.net/LoveLion/article/details/17517213](https://blog.csdn.net/LoveLion/article/details/17517213)，总结自己的理解。
 
+[TOC]
+
 ## 7种面向对象设计原则
 
 1. 使用依赖倒置原则设计+里氏转换的理论约束=开闭原则；
